@@ -1,0 +1,194 @@
+body{
+    background-color: whitesmoke;
+    padding: 0px;
+    margin: 0px;
+}
+.container img{
+    width: 100px;
+    height: 100px;
+}
+form button:hover{
+    background-color: black;
+    color: white;
+}
+form button{   
+    border-radius: 8px;
+    padding: 5px 5px;
+}
+#dropdown li {
+    font-size: smaller;
+}
+#a{
+    color:black;
+}
+#a:hover{
+    font-size: large;
+}
+#navbar{
+    background-color:rgba(253, 251, 251, 0.955);
+    height: 70px;
+    /* margin-top: 8px; */
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+#help{
+   
+   padding: 20px;
+    background-color: white;
+    /* border-radius: 5px; */
+    width: 400px;
+    /* height: ; */
+    position: absolute;
+    top: 30%;
+    left: 60%; 
+}
+#help button{
+    background-color: black;
+    color: white;
+    /* border-radius: 8px; */
+    padding: 5px 5px;
+}
+#help button:hover{
+    background-color: lightgrey;
+    color: black;
+}
+.row{
+    width: 100%;
+    height: 680px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.col p{
+    color: gray;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* font-size:small; */
+}
+.col h5{
+    font-family: 'Times New Roman', Times, serif;
+}
+.col h5:hover{
+    color: rgb(182, 182, 36);
+}
+  
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.col a{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+button{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    
+}
+.button{
+    text-align: center;
+    width:100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.rows{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cols{
+    width: 45%;
+    height: 800px;
+    background-color: white;
+    margin-top: 50px;
+    /* margin-left:40px ; */
+}
+#banner{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(252,194,0);
+
+}
+.ro{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.co{
+    background-color: whitesmoke;
+    width: 350px;
+    height: 400px;
+    margin-top: 40px;
+    position: relative;
+}
+h1{
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+}
+h5{
+    position: absolute;
+    top: 220px;
+    padding-left: 6px;
+}
+.co button{
+    margin-left: 10px;
+    background-color: rgb(252,194,0);
+    color: black;
+    font-weight:600;
+}
+.co button:hover{
+    background-color: gray;
+    color: white;
+}
+.footer{
+    background-color: gray;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    float: right;
+    position: relative;
+}
+.footer ul{
+    color: white;
+    font-weight: 400;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+    margin-right: 20px;
+    margin-top: 30px;
+
+}
+.footer li{
+    color: white;
+    list-style: none;
+    font-size: medium;
+    font-weight: lighter;
+}
+.contact{
+    position: absolute;
+    bottom: 70px;
+}
+.contact button{
+    border-radius: 0px;
+    height: 35px;
+}
+#logo{
+    font-size: xx-large;
+}
+.oo{
+    font-size: smaller;
+    text-align: center;
+}
